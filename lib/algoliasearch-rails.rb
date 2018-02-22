@@ -3,7 +3,7 @@ require 'algoliasearch'
 require 'algoliasearch/version'
 require 'algoliasearch/utilities'
 
-if defined? Rails
+if false && defined? Rails
   begin
     require 'algoliasearch/railtie'
   rescue LoadError
